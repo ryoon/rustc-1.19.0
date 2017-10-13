@@ -324,6 +324,7 @@ pub fn openssl(build: &Build, target: &str) {
         "i686-unknown-freebsd" => "BSD-x86-elf",
         "i686-unknown-linux-gnu" => "linux-elf",
         "i686-unknown-linux-musl" => "linux-elf",
+        "i686-unknown-netbsd" => "BSD-x86-elf",
         "mips-unknown-linux-gnu" => "linux-mips32",
         "mips64-unknown-linux-gnuabi64" => "linux64-mips64",
         "mips64el-unknown-linux-gnuabi64" => "linux64-mips64",
